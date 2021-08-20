@@ -23,8 +23,8 @@ public class Ex03 {
 		String message = null;
 		A03 a = new A03();
 		
-		a.setDaemon(true);
-		a.start();
+		a.setDaemon(true);		//설정 먼저 세팅
+		a.start();				//실행
 		
 		while(true) {
 			System.out.print("전송 메세지 : ");
