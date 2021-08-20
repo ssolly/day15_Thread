@@ -32,7 +32,7 @@ public class Ex04_JFrame {
 		//↑창 끌 때 프로그램도 꺼주는 메소드
 		
 		for (int i=0; i<10; i++) {
-		//label 메세지 수정
+		//label 메세지 수정                                      
 			label.setText(i + " : 안녕하세요 :)");
 		}
 	}
